@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 /**
- * main function - prints the phrase "Programming is like building a multilingual puzzle
- * Return: 0 if executed properly, non-zero otherwise
+ * main - print a specific phrase given
+ * Return: 0 when well executed, otherwise a non-zero
  */
-
 int main(void)
 
 {
-	puts("\"Programming is like building a multilingual");
-	return (0);
+
+		puts("\"Programming is like building a multilingual puzzle");
+
+		return (0);
 
 }
