@@ -1,16 +1,18 @@
 #include <stdio.h>
 
+
+
 /**
- * Use the puts function - to print out an exact statement given
- *
- * After the output, print a newlin
- *
- *Return: Program should end with value 0
+ * main function - prints the phrase "Programming is like building a multilingual puzzle
+ * Return: 0 if executed properly, non-zero otherwise
  */
+
 int main(void)
+
 {
 
-	puts("\"Programming is like building a multilingual puzzle");
+		puts("\"Programming is like building a multilingual puzzle");
 
-	return(0);
+		return (0);
+
 }
