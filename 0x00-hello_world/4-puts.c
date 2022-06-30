@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-
 
 /**
  * main function - prints the phrase "Programming is like building a multilingual puzzle
@@ -10,11 +8,7 @@
 int main(void)
 
 {
-
-		char phrase[] = "\"Programming is like building a multilingual puzzle";
-		
-		puts(phrase);
-
-		return (0);
+	puts("\"Programming is like building a multilingual");
+	return (0);
 
 }
