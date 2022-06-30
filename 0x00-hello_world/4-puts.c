@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 
 
 /**
@@ -11,7 +11,9 @@ int main(void)
 
 {
 
-		puts("\"Programming is like building a multilingual puzzle");
+		char phrase[] = "\"Programming is like building a multilingual puzzle";
+		
+		puts(phrase);
 
 		return (0);
 
