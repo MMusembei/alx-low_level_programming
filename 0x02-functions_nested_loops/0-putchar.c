@@ -1,16 +1,21 @@
 #include <main.h>
 
 /**
- * main - prints main then a newline
+ * main - prints _putchar then a newline
  * Return: on success print
  */
 
 int main(void)
 {
-	_putchar('m');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_puthar('h');
 	_putchar('a');
-	_putchar('i');
-	_putchar('n');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
