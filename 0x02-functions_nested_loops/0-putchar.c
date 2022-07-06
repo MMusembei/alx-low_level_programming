@@ -1,15 +1,17 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
- * _putchar - Writes the char to stdout
- * @c: The char to display
- *
- * Return: on success print 1
- * On error, -1, and errno is set
+ * main - prints main then a newline
+ * Return: on success print
  */
 
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	_putchar('m');
+	_putchar('a');
+	_putchar('i');
+	_putchar('n');
+
+	return (0);
 
 }
