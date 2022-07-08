@@ -2,13 +2,13 @@
 
 /**
  * _isdigit - check if a digit is between 0-9
- * @C: number in ascii
+ * @c: number in ascii
  * Return: value 1 if digit and 0 otherwise
  */
 
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
+	if (c >= "48" && c <= "57")
 	{
 		return (1);
 	}
