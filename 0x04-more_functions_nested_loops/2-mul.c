@@ -6,11 +6,11 @@
  * @b: int 2
  * Return: output
  */
+
 int mul(int a, int b)
 { 
 	int m;
 
 	m = a * b;
-
 	return (m);
 }
