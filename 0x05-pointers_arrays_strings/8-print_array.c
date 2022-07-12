@@ -3,7 +3,7 @@
 
 /**
  * print_array - prints n elements of an array of ints followed to a newline
- * @: array to print
+ * @a: array to print
  * @n: number of elements to print
  */
 void print_array(int *a, int n)
@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 	for (j = 0; j < n; j++)
 	{
 		if (j == 0)
-			printf("%d:", a[j]);
+			printf("%d", a[j]);
 		else 
 			printf(", %d", a[j]);
 	}
