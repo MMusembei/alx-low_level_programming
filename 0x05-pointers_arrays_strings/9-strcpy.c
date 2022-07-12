@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copies the string pointed to the src
+ * *_strcpy - copies the string pointed to the src
  * Include the teminating null byte (\0)
  * to the buffer dest pointed
  * @dest: pointer to the buffer in which we copy the str
@@ -14,6 +14,7 @@ char *_strcpy(char *dest, char *src);
 	int len, j;
 	 
 	len = 0;
+
 	while (*(src + len))
 	{
 		len++;
