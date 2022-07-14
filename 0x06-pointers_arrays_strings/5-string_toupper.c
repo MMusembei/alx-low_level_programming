@@ -5,15 +5,17 @@
  * @s: str to modify
  * Return: the resulting str
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
+	
+	i = 0;
+	while (n[i])
 	{
-		if (s[i] >= 65 && s[i] <= 90)
-			s[i] = s[i] - 32;
+		if (n[i] >= 'a' && n[i] <= 'z')
+			n[i] += ('A' - 'a');
+		i++;
 	}
-	return (s);
+	return (n);
 }
 
