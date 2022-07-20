@@ -20,7 +20,7 @@ int sqrtChecker(int a, int b, int m)
 		if (guess * guess > m)
 			return (sqrtChecker(a, guess - 1, m));
 		if (guess * guess < m)
-			return (sqrtChecker(guess + 1, max, m));
+			return (sqrtChecker(guess + 1, b, m));
 	}
 	return (-1);
 }
