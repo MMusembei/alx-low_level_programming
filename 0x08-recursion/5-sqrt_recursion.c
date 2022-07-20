@@ -1,7 +1,29 @@
 #include "main.h"
 
-int actual _sqrt_recursion(int n, int i);
+/**
+ * sqrtChecker - computes the sqrt while continuely doing binary search
+ * @a: intial num
+ * @b: last num within the limit of nums
+ * @m: given num.
+ * Return: 1 if not found else sqrt
+ */
+int sqrtChecker(int a, int b, int m)
+{
+	long int guess;
 
+	if (b >= a)
+	{
+		guess = a + (b - a) / 2;
+		if (guess * guess == m)
+			return (guess);
+/* then do a binary search*/
+		if (guess * guess > m)
+			return (sqrtChecker(a, guess - 1, m));
+		if (guess * guess < m)
+			return (sqrtChecker(guess + 1, max, m));
+	}
+	return (-1);
+}
 /**
  * _sqrt_recursion - returns the natural sqrt of a num
  * @n: the num to calc sqrt of
@@ -11,22 +33,7 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (actual_sqrt_recursion(n, 0));
+	if (n == 0)
+		return (0);
+	return (sqrtChecker(1, n, n));
 }
-
-/**
- * actual_sqrt_recursion - recurses to find the natural
- * sqrt of a num.
- * @n: num to calc the sqrt of
- * @i: iterator
- * Return: the resulting sqrt root
- */
-int actual_sqrt_recursion(int n, int i)
-{
-	if (i * i > n)
-		return (-1);
-	if (i * i == n)
-		return (i);
-	return (actual_sqrt_recursion(n, i + 1));
-}
-
