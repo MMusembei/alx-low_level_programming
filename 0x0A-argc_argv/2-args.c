@@ -2,7 +2,7 @@
 
 /**
  * main - prints all arguements
- * @argc - arguement count
+ * @argc: arguement count
  * @argv: array of printers to CLI arguement
  * Return: 0
  */
