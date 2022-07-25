@@ -13,7 +13,7 @@ int sum = 0;
 
 if (argc == 1)
 {
-	printf("o\n");
+	printf("0\n");
 	return (0);
 }
 while (--argc)
