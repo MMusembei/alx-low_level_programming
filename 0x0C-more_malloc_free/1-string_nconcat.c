@@ -8,7 +8,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *combo;
+	char *comb;
 	int i;
 	unsigned int j;
 
@@ -20,20 +20,20 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s1[i])
 		i++;
 	i++;
-	combo = malloc(sizeof(*combo) * (i + n);
-	if (combo == NULL)
+	comb = malloc(sizeof(*comb) * (i + n);
+	if (comb == NULL)
 		return (NULL);
 	i = 0;
 	while (s1[i])
 	{
-		combo[i] = s1[i];
+		comb[i] = s1[i];
 		i++;
 	}
 	for (j = 0; j < n && s2[j] != '\0'; j++)
 	{
-		combo[i] = s2[j];
+		comb[i] = s2[j];
 		i++;
 	}
-	combo[i] = '\0';
-	return (combo);
+	comb[i] = '\0';
+	return (comb);
 }
