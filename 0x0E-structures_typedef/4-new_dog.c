@@ -9,7 +9,7 @@
 int _strlen(char *s)
 {
 	int i;
-
+	
 	i = 0;
 	
 	while (s[i] != '\0')
@@ -20,7 +20,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strcpy - copies the str pointed to by src
+ * *_strcpy - copies the str pointed to by src
  * including the terminating null byte (\0)
  * to the buffer pointed by dest
  * @dest: pointer to the buffer in which we copy the str
@@ -54,7 +54,7 @@ char *_strcpy(char *dest, char *src)
  * @owner: dog owner
  * Return: pointer to the new dog (success), ow null
  */
-dog_t *new_dog(char *name, float age, char *ownwer)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 	int len1, len2;
