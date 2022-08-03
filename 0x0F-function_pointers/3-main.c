@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - multiply two numbers
- * argc: arguement count
- * argv: array of pointrs to arguement strs
+ * @argc: arguement count
+ * @argv: array of pointrs to arguement strs
  * Return: result of multiplication or 1
  */
 int main(int argc, char *argv[])
