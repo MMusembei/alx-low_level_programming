@@ -36,11 +36,9 @@ int op_mul(int a, int b)
  * @a: 1st int
  * @b:2nd int
  */
-int op_div(int a, intb)
+int op_div(int a, int b)
 {
-	if (b == 0)
-		return (-1);
-	return (a/b);
+	return (a / b);
 }
 /**
  * op_mod - calcs the rem of div between 2 ints
@@ -50,7 +48,5 @@ int op_div(int a, intb)
  */
 int op_mod(int a, int b)
 {
-	if (b == 0)
-		return (-1);
 	return (a % b);
 }
