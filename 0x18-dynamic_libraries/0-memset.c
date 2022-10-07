@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdio.h>
+#include <stddef.h>
 /**
  * _memset - fill memory with a constant byte
  * @s: Buffer string

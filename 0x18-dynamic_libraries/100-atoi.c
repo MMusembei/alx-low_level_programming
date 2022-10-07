@@ -1,4 +1,6 @@
+#include "main.h"
 #include <stdio.h>
+#include <stddef.h>
 int length(char *s);
 int exponent(int len);
 int total(char *s);

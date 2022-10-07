@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stddef.h>
 /**
  * _strcat - Concatenates two stings
  * @dest: Destination string
